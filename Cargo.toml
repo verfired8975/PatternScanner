@@ -1,11 +1,11 @@
 [package]
-name = "rust_pattern_scanner"
+name = "pattern_scanner"
 version = "1.0.0"
 edition = "2021"
 authors = ["verfired8975"]
 description = "External pattern scanner for Windows"
 license = "MIT"
-repository = "https://github.com/verfired8975/RustPatternScanner"
+repository = "https://github.com/verfired8975/PatternScanner"
 
 [dependencies]
 windows = { version = "0.58", features = [

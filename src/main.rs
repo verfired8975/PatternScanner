@@ -1,4 +1,4 @@
-use rust_pattern_scanner::{Pattern, Scanner};
+use pattern_scanner::{Pattern, Scanner};
 
 fn main() {
     let scanner = match Scanner::attach("notepad.exe") {

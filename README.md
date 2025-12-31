@@ -1,4 +1,4 @@
-# RustPatternScanner
+# PatternScanner
 
 another pattern scanner yes. i know there is mass already mass but this one is rust so its mass more mass better mass.
 
@@ -21,14 +21,14 @@ put this in your cargo toml:
 
 ```toml
 [dependencies]
-rust_pattern_scanner = { git = "https://github.com/verfired8975/RustPatternScanner" }
+pattern_scanner = { git = "https://github.com/verfired8975/PatternScanner" }
 ```
 
 or just clone like normal human:
 
 ```bash
-git clone https://github.com/verfired8975/RustPatternScanner
-cd RustPatternScanner
+git clone https://github.com/verfired8975/PatternScanner
+cd PatternScanner
 cargo build --release
 ```
 
@@ -37,7 +37,7 @@ cargo build --release
 ### basic usage for understand
 
 ```rust
-use rust_pattern_scanner::{Pattern, Scanner};
+use pattern_scanner::{Pattern, Scanner};
 
 fn main() {
     // first attach to process (open as admin if not work ok?)
