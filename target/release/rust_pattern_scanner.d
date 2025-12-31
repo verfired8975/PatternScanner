@@ -1,1 +1,0 @@
-C:\Users\verfired\pattern-scanner\target\release\rust_pattern_scanner.exe: C:\Users\verfired\pattern-scanner\src\error.rs C:\Users\verfired\pattern-scanner\src\lib.rs C:\Users\verfired\pattern-scanner\src\main.rs C:\Users\verfired\pattern-scanner\src\pattern.rs C:\Users\verfired\pattern-scanner\src\process.rs C:\Users\verfired\pattern-scanner\src\scanner.rs
