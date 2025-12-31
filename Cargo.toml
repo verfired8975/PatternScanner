@@ -1,0 +1,22 @@
+[package]
+name = "rust_pattern_scanner"
+version = "1.0.0"
+edition = "2021"
+authors = ["verfired8975"]
+description = "External pattern scanner for Windows"
+license = "MIT"
+repository = "https://github.com/verfired8975/RustPatternScanner"
+
+[dependencies]
+windows = { version = "0.58", features = [
+    "Win32_Foundation",
+    "Win32_System_Threading",
+    "Win32_System_Memory",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_ProcessStatus"
+]}
+thiserror = "1.0"
+
+[profile.release]
+opt-level = 3
+lto = true
